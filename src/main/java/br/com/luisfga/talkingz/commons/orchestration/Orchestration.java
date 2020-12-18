@@ -1,6 +1,8 @@
 package br.com.luisfga.talkingz.commons.orchestration;
 
-public class Orchestration {
+import java.io.Serializable;
+
+public class Orchestration implements Serializable {
     
     protected String type;
 

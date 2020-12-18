@@ -1,1 +1,1 @@
--Durl=file:///C:\Users\Luis\Documents\4.PROJETOS\2-IdeaProjects\talkingz-server\repo -Dfile=target\talkingz-commons-0.1.jar -DgroupId=br.com.luisfga -DartifactId=talkingz-commons -Dpackaging=jar -Dversion=0.1
+deploy:deploy-file -f pom.xml -Durl=file:///C:\Users\Luis\Documents\4.PROJETOS\2-IdeaProjects\talkingz-server\repo -Dfile=target\talkingz-commons-0.1.jar -DgroupId=br.com.luisfga -DartifactId=talkingz-commons -Dpackaging=jar -Dversion=0.1

@@ -5,13 +5,14 @@
  */
 package br.com.luisfga.talkingz.commons;
 
+import java.io.Serializable;
 import java.util.UUID;
 
 /**
  *
  * @author Luis
  */
-public class MessageWrapper {
+public class MessageWrapper implements Serializable {
     
     private UUID id;
     private String senderId;

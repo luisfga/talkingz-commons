@@ -5,6 +5,7 @@
  */
 package br.com.luisfga.talkingz.commons;
 
+import java.io.Serializable;
 import java.sql.Timestamp;
 import java.util.UUID;
 
@@ -12,7 +13,7 @@ import java.util.UUID;
  *
  * @author Luis
  */
-public class UserWrapper {
+public class UserWrapper implements Serializable {
     
     private UUID id;
     private String name;
